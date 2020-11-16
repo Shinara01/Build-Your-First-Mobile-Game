@@ -110,7 +110,6 @@ public class TheGame extends GameThread{
     @Override
     protected void doDraw(Canvas canvas) {
         //If there isn't a canvas to do nothing
-        //It is ok not understanding what is happening here
         if(canvas == null) return;
 
         //House keeping
